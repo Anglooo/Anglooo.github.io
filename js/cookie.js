@@ -5,7 +5,11 @@ function writeCookie(){
 	document.cookie ="hasAccessedBefore=Yes";
 }
 
-$('#cookieAgreed').click(function(){ document.cookie ="hasAccessedBefore=Yes";});
+$('#cookieAgreed').click(function(){ 
+	document.cookie ="hasAccessedBefore=Yes";
+	alert("clicked");
+	}
+);
 
 
 
