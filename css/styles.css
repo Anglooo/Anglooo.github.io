@@ -93,7 +93,7 @@ fieldset[disabled] .btn-custom.active {
     color:#eeeeee;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   .navbar-custom .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -171,7 +171,7 @@ fieldset[disabled] .btn-custom.active {
     color:#eeeeee;
 }
 
-@media (max-width: 767px){
+@media (max-width: 700px){
   .noshow {
   display: none;
   }
@@ -191,24 +191,29 @@ fieldset[disabled] .btn-custom.active {
 	padding-bottom: 0px;
 }
 
+.item{
+  background-color: #000000;
+}
 
 .navbar-brand{
   padding: 0px;
   min-height: 100%;
 }
-
-.item{
-  max-height: 800px;
-  min-height: 800px;
-  background-color: #000000;
-}
-
 .jumboImage{
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+@media (max-width: 700px){
+  .jumboImage{
+
+  }
+  .item{
+    max-height: none;
+    min-height: none;
+  }
 }
 
 
