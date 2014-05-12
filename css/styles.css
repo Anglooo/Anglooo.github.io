@@ -124,12 +124,9 @@ fieldset[disabled] .btn-custom.active {
   .navbar-custom .navbar-toggle {
   border-color: #9a9a9a;
   line-height: 50px;
+  margin-top: 25px;
   color: white;
   } 
-
-  .navbar-toggle{
-    color: white;
-  }
 
   .navbar-custom .navbar-toggle:hover,
   .navbar-custom .navbar-toggle:focus {
@@ -173,8 +170,9 @@ display: none;
   min-height: 100%;
 }
 
-.white{
-  color: #ffffff;
+.item{
+  max-height: 200;
+  max-width: 200;
 }
 
 
