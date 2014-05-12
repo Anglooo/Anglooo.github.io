@@ -25,8 +25,8 @@
 
                 <!--Loads the cookie warning div-->       
                 <script> 
-                $(function(){
-                  $("#cookieLoad").load("cookieWarning.html"); 
+                $(function(){ if ($.cookie('bas_referral') == null ){
+  }             $("#cookieLoad").load("cookieWarning.html"); 
                 });
                 </script> 
 
