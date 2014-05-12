@@ -14,15 +14,35 @@
                 <!--Other Files-->
                 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-                <!--My Files-->       
-                <script src = "js/javascript.js"></script>
-                <script src = "js/cookie.js"></script>               
+                <!--My Loading Scripts-->
+
+                <!--Loads the footer div-->       
                 <script> 
                 $(function(){
                   $("#footer").load("footerTemplate.html"); 
                 });
+                </script>
+
+                <!--Loads the cookie warning div-->       
+                <script> 
+                $(function(){
+                  $("#cookieLoad").load("cookieWarning.html"); 
+                });
                 </script> 
+
+                <!--Loads the mailing list div-->       
+                 <script> 
+                $(function(){
+                  $("#mailingListModal").load("mailingListModal.html"); 
+                });
+                </script> 
+
+                <!--My External Scripts-->       
+
+                <script src = "js/javascript.js"></script>
+                <script src = "js/cookie.js"></script>
                 <link href = "css/styles.css" rel = "stylesheet">
+ 
         </head>
         <body>
 
@@ -31,25 +51,25 @@
 
                         <div class = "container">
                                
-                                <a class="navbar-brand" rel="home" href="index.html" title="Penfold" height = "40px">
+                                <a class="navbar-brand" rel="home" href="index.html" title="Penfold" height = "80px">
                                 <img class = "img-responsive" src="img/Header.png" height = "100%">
                                 </a>
                                
                                 <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
-                                        <span class = "icon-bar white"></span>
-                                        <span class = "icon-bar white"></span>
-                                        <span class = "icon-bar white"></span>
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
                                 </button>
                                
                                 <div class = "collapse navbar-collapse navHeaderCollapse">
                                
                                         <ul class = "nav navbar-nav navbar-right" id = "customFontHere">
                                        
-                                                <li><a href = "index.html">Home</a></li>
+                                                <li><a href = "index.html" class = "active">Home</a></li>
                                                 <li><a href = "#">News</a></li>
                                                 <li><a href = "#">About</a></li>
                                                 <li><a href = "http://www.penfoldband.bigcartel.com/">Merch</a></li>
-                                                <li class = "active"><a href = "#">Tour</a></li>
+                                                <li class =><a href = "Tour.html">Tour</a></li>
                                                 <li class = "dropdown">
                                                        
                                                         <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
@@ -71,15 +91,7 @@
                 <!--End of Top Navbar-->
 
                  <!--Start Of Cookie Warning ****Requires hooking up to other stuff.-->
-                <div class = "container" id = "cookieWarning">
-
-                        <div class = "alert alert-warning alert-dismissable">
-                                <button type="button" id = "cookieAgreed" class="close" data-dismiss="alert">Agree</button>
-                                <p> We use cookies, just to track visits to our website, we store no personal details.</p>
-
-                        </div>
-
-                </div>
+                 <div id = "cookieLoad"></div>
                 <!--End Of Cookie Warning.-->
 
 
@@ -177,12 +189,9 @@
 
                         </div>
 
-                        <div class = "col-lg-4">
+                        <div class = "col-lg-4 noshow">
                             <a class="twitter-timeline" href="https://twitter.com/PenfoldBandUK" data-widget-id="465780140950040576">Tweets by @PenfoldBandUK</a>
                             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
                         </div>
                         
 
@@ -190,71 +199,14 @@
                     
 
                 </div>
-
                 <!---End of Page Body-->
-
-
 
                 <!--Start of Footer-->
                 <div id = "footer"></div>
                 <!--End of Footer-->
 
                 <!--Start of Mailing List Modal-->
-                <div class = "modal fade" id = "mailingList" role = "dialog">
-                        <div class = "modal-dialog">
-
-                                <div class = "modal-content">
-
-                                        <div class = "modal-header">
-
-                                                <h4>Join the Penfold Mailing List</h4>
-                                                
-                                        </div>
-
-                                        <div class = "modal-body">
-
-                                                <p>Sign up here for exclusive news regarding Penfold. Be the first to hear about new gigs and news on releases.</p>
-
-                                                <form class = "form-horizontal">
-
-                                                        <div class = "form-group">
-
-                                                                <label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
-                                                                <div class = "col-lg-10">
-
-                                                                        <input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
-
-                                                                </div>
-                                                        </div>
-                                                        <div class = "form-group">
-
-                                                                <label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
-                                                                <div class = "col-lg-10">
-
-                                                                        <input type = "email" class = "form-control" id = "contact-email" placeholder = "Example: you@example.com">
-
-                                                                </div>
-                                                        </div>
-                                                
-
-                                                </div>
-
-                                                <div class = "modal-footer">
-
-                                                        <a class = "btn btn-default" data-dismiss = "modal">
-                                                                Close
-                                                        </a>
-
-                                                        <button class = "btn btn-primary" type = "submit"> Submit</button>                                             
-
-                                                </div>
-
-                                        </form>
-
-                                </div>
-
-                        </div>
-                </div>
+                <div id = "mailingListModal"></div>
                 <!--End of Mailing List Modal-->
  
                
