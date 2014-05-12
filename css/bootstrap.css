@@ -3795,17 +3795,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     position: static;
     float: none;
     width: auto;
-    margin-top: 0;
+    margin-top: 10px;
     background-color: transparent;
     border: 0;
     box-shadow: none;
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 5px 10px 5px 10px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
+    line-height: 10px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -3821,8 +3821,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top:  5px;
+    padding-bottom: 5px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
