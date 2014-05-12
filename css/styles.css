@@ -197,13 +197,9 @@ fieldset[disabled] .btn-custom.active {
   min-height: 100%;
 }
 
-.jumboItem{
-  max-height: 400px;
-}
-
 .item{
-  max-height: 200;
-  max-width: 200;
+  max-height: 600px;
+  max-width: auto;
 }
 
 
