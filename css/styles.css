@@ -1,5 +1,11 @@
+ @font-face {
+  font-family: steelfish; 
+  src:url("../font/steelfish.otf"); 
+} 
+
 body {
 	margin-bottom: 90px;
+  background-color: #222;
 }
 
 
@@ -57,6 +63,32 @@ fieldset[disabled] .btn-custom.active {
   background-color: #0000ff;
 }
 
+.navbar-custom {
+    background-color:#000000;
+    color:#ffffff;
+    border-radius:0;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#9a9a9a;
+    height: 80px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+    height: 80px;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+#customFontHere{
+    font-family: steelfish;
+    letter-spacing:2px;
+}
+
 #mainJumbo{
 	padding: 5px;
 }
@@ -69,4 +101,11 @@ fieldset[disabled] .btn-custom.active {
 .noshow {
 display: none;
 }
+
+.navbar-brand{
+  padding: 0px;
+  height: 100%;
+}
+
+
 

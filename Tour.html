@@ -16,16 +16,24 @@
 
                 <!--My Files-->       
                 <script src = "js/javascript.js"></script>
-                <script src = "js/cookie.js"></script>
+                <script src = "js/cookie.js"></script>               
+                <script> 
+                $(function(){
+                  $("#footer").load("footerTemplate.html"); 
+                });
+                </script> 
                 <link href = "css/styles.css" rel = "stylesheet">
         </head>
         <body>
 
                 <!--Start of Top Navbar-->
-                <div class = "navbar navbar-inverse navbar-static-top">
+                <div class = "navbar navbar-custom navbar-static-top">
+
                         <div class = "container">
                                
-                                <a href = "index.html" class = "navbar-brand">Penfold</a>
+                                <a class="navbar-brand" rel="home" href="index.html" title="Penfold" height = "40px">
+                                <img class = "img-responsive" src="img/Header.png" height = "100%">
+                                </a>
                                
                                 <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                                         <span class = "icon-bar"></span>
@@ -35,7 +43,7 @@
                                
                                 <div class = "collapse navbar-collapse navHeaderCollapse">
                                
-                                        <ul class = "nav navbar-nav navbar-right">
+                                        <ul class = "nav navbar-nav navbar-right" id = "customFontHere">
                                        
                                                 <li><a href = "index.html">Home</a></li>
                                                 <li><a href = "#">News</a></li>
@@ -188,33 +196,7 @@
 
 
                 <!--Start of Footer-->
-                <div class = "navbar navbar-inverse navbar-fixed-bottom">
-                	<div class = "container">
-
-                		<p class = "navbar-text pull-left"> Thomas Frow&copy; 2014</p>
-
-
-                                <div class = "btn-group pull-right">
-
-                                
-
-                                <a class = "btn navbar-btn btn-info "href = "https://facebook.com/penfoldband">
-                                    <span class="fa fa-facebook"></span>
-                                    <div class = "noshow">Facebook</div>
-                                </a>
-                        		<a class = "btn navbar-btn btn-info "href = "https://twitter.com/PenfoldBandUK">
-                        			<span class="fa fa-twitter"></span>
-                                    <div class = "noshow">Twitter</div>
-                        		</a>
-                        		<a class = "btn navbar-btn btn-info " href = "http://penfold.bandcamp.com">
-                        			<span class = "glyphicon glyphicon-music"></span>
-                                    <div class = "noshow">Bandcamp</div>
-                        		</a>
-
-                                </div>
-                	</div>
-
-                </div>
+                <div id = "footer"></div>
                 <!--End of Footer-->
 
                 <!--Start of Mailing List Modal-->
