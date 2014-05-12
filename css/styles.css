@@ -65,7 +65,7 @@ fieldset[disabled] .btn-custom.active {
 	padding-bottom: 0px;
 }
 
-@media (max-width: 320px) 
+@media (max-width: 800px)
 .noshow {
 display: none;
 }
