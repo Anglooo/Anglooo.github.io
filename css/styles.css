@@ -154,81 +154,32 @@ fieldset[disabled] .btn-custom.active {
     background-color:#000000;
     color:#ffffff;
     border-radius:0;
-    line-height: 80px;
     border-color:#ffffff;
-    min-height: 80px;
-    line-height: 80px;
+    min-height: 40px;
 }
 
 .navbar-nav li a {
- line-height: 50px;
+ line-height: 5px;
 }
 
 .navbar-customBottom .navbar-nav > li > a {
     color:#9a9a9a;
-    min-height: 80px;
+    min-height: 40px;
 }
 .navbar-customBottom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
     background-color:transparent;
-    min-height: 80px;
+    min-height: 40px;
 }
 .navbar-customBottom .navbar-brand {
     color:#eeeeee;
 }
 
 
-
-@media (max-width: 767px) {
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #080808;
-  }
-  .navbar-customBottom .navbar-nav .open .dropdown-menu .divider {
-    background-color: #080808;
-  }
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > li > a {
-    color: #999;
-  }
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fff;
-    background-color: transparent;
-  }
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fff;
-    background-color: #080808;
-  }
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > .disabled > a,
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .navbar-customBottom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #444;
-    background-color: transparent;
-  }
-  .navbar-customBottom .navbar-toggle {
-  border-color: #9a9a9a;
-  line-height: 50px;
-  margin-top: 25px;
-  color: white;
-  } 
-
-  .navbar-customBottom .navbar-toggle:hover,
-  .navbar-customBottom .navbar-toggle:focus {
-    line-height: 50px;
-    background-color: #9a9a9a;
-  }
-
-  .navbar-customBottom .navbar-toggle .icon-bar{
-    background-color: #ffffff;
-  }
-
-  .navbar-customBottom .navbar-toggle:hover .icon-bar,
-  .navbar-customBottom .navbar-toggle:focus .icon-bar
-  {
-      background-color: #ffffff;
-  }
-
+@media (max-width: 767px){
+.noshow {
+display: none;
+}
 }
 /* End of custom navbar for bottom navbar */
 
@@ -245,11 +196,7 @@ fieldset[disabled] .btn-custom.active {
 	padding-bottom: 0px;
 }
 
-@media (max-width: 767px){
-.noshow {
-display: none;
-}
-}
+
 
 .navbar-brand{
   padding: 0px;
