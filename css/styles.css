@@ -111,7 +111,7 @@ fieldset[disabled] .btn-custom.active {
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fff;
+    color: #000000;
     background-color: #080808;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -144,7 +144,7 @@ fieldset[disabled] .btn-custom.active {
 }
 /* End of custom navbar for top navbar */
 
-/* Start of custom navbar for bottom navbar */
+/* Start of custom navbar for footer navbar */
 .navbar-customBottom {
     background-color:#000000;
     color:#ffffff;
@@ -175,12 +175,7 @@ fieldset[disabled] .btn-custom.active {
   display: none;
   }
 }
-/* End of custom navbar for bottom navbar */
-
-#customFontHere{
-    font-family: steelfish;
-    letter-spacing:1px;
-}
+/* End of custom navbar for footer navbar */
 
 #mainJumbo{
 	padding: 5px;
@@ -212,18 +207,27 @@ fieldset[disabled] .btn-custom.active {
   }
   .item{
     max-height: 400px;
-    min-height: none;
   }
+}dfas
+
+.dropdown-menu >li>a{
+  display: block;
+  padding: 5px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
 }
 
-.dropdown-menu>li>a{
-  display: block;
-padding: 5px 20px;
-clear: both;
-font-weight: 400;
-line-height: 1.42857143;
-color: #333;
-white-space: nowrap;
+#customFontHere {
+  font-size: 22px;
+  font-family: steelfish;
+  letter-spacing:1px;
+}
+
+.page-header {
+  color: white;
 }
 
 
