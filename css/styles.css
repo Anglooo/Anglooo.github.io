@@ -93,7 +93,7 @@ fieldset[disabled] .btn-custom.active {
     color:#eeeeee;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .navbar-custom .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -208,7 +208,7 @@ fieldset[disabled] .btn-custom.active {
   .item{
     max-height: 400px;
   }
-}dfas
+}
 
 .dropdown-menu >li>a{
   display: block;
