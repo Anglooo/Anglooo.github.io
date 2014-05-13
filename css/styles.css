@@ -76,13 +76,13 @@ fieldset[disabled] .btn-custom.active {
     
 }
 
+
 .navbar-nav li a {
  line-height: 50px;
 }
 
 .navbar-custom .navbar-nav > li > a {
     color:#9a9a9a;
-    min-height: 80px;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
@@ -101,7 +101,7 @@ fieldset[disabled] .btn-custom.active {
     background-color: #080808;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
-    color: #999;
+    color: #000000;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -124,7 +124,6 @@ fieldset[disabled] .btn-custom.active {
   border-color: #9a9a9a;
   line-height: 50px;
   margin-top: 25px;
-  color: white;
   } 
 
   .navbar-custom .navbar-toggle:hover,
@@ -214,6 +213,16 @@ fieldset[disabled] .btn-custom.active {
     max-height: none;
     min-height: none;
   }
+}
+
+.dropdown-menu>li>a{
+  display: block;
+padding: 5px 20px;
+clear: both;
+font-weight: 400;
+line-height: 1.42857143;
+color: #333;
+white-space: nowrap;
 }
 
 
