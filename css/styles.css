@@ -26,10 +26,11 @@ body {
 	margin-bottom: 15px;
 }
 
+/*Start of custom button*/
 .btn-custom {
-  color: #0000ff;
-  background-color: #ff0000;
-  border-color: #008000;
+  color: #000000;
+  background-color: #9a9a9a;
+  border-color: white;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -67,6 +68,8 @@ fieldset[disabled] .btn-custom.active {
   color: #ff0000;
   background-color: #0000ff;
 }
+/*End of custom button*/
+
 
 /* Start of custom navbar for top navbar */
 
