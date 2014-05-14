@@ -38,7 +38,7 @@ body {
 .btn-custom.active,
 .open .dropdown-toggle.btn-custom {
   color: #0000ff;
-  background-color: #d60000;
+  background-color: #white;
   border-color: #004300;
 }
 .btn-custom:active,
