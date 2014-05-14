@@ -41,6 +41,13 @@ body {
   background-color: #white;
   border-color: #004300;
 }
+
+.btn-custom:hover{
+  color: #0000ff;
+  background-color: #white;
+  border-color: #004300;
+}
+
 .btn-custom:active,
 .btn-custom.active,
 .open .dropdown-toggle.btn-custom {
