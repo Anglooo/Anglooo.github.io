@@ -3,6 +3,11 @@
   src:url("../font/steelfish.otf"); 
 } 
 
+ @font-face {
+  font-family: steelfishOutline; 
+  src:url("../font/steelfish-outline.otf"); 
+} 
+
 body {
 	margin-bottom: 90px;
   background-color: #222;
@@ -226,9 +231,17 @@ fieldset[disabled] .btn-custom.active {
   letter-spacing:1px;
 }
 
+#customFontHere2 {
+  
+  font-family: steelfishOutline;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
 .page-header {
   color: white;
 }
+
 
 
 
