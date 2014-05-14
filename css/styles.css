@@ -43,7 +43,7 @@ body {
 }
 
 .btn-custom:hover{
-  color: white;
+  color: #000000;
   background-color: white;
   border-color: white;
 }
