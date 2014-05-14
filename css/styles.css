@@ -43,9 +43,9 @@ body {
 }
 
 .btn-custom:hover{
-  color: #0000ff;
+  color: #000000;
   background-color: #white;
-  border-color: #004300;
+  border-color: #000000;
 }
 
 .btn-custom:active,
