@@ -94,6 +94,7 @@ fieldset[disabled] .btn-custom.active {
 
 .navbar-nav li a {
  line-height: 50px;
+ min-height: 100%;
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -168,9 +169,6 @@ fieldset[disabled] .btn-custom.active {
     min-height: 40px;
 }
 
-.navbar-nav li a {
- line-height: 5px;
-}
 
 .navbar-customBottom .navbar-nav > li > a {
     color:#9a9a9a;
