@@ -250,6 +250,9 @@ fieldset[disabled] .btn-custom.active {
   color: white;
 }
 
+.about-panel{
+  padding-top: 0;
+}
 
 
 
