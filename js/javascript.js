@@ -1,11 +1,6 @@
 
 
 $(document).ready(function() {
-
-    if (document.cookie.indexOf("hasAccessedBefore") >= 0) {
-      alert("cookie found")
-      document.getElementById('cookieWarning').style.display = 'none';
-    }
     
     $('.carousel').each(function(){
     $(this).carousel({
@@ -24,4 +19,11 @@ $(document).ready(function() {
       $("#penCarousel").carousel('cycle');
     }
   );
+
+
+$('#cookieAgreed').on('click', function (e) {
+
+     alert("I am an alert box!");
+
+})
 
