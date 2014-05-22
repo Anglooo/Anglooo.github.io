@@ -21,9 +21,3 @@ $(document).ready(function() {
   );
 
 
-$('#cookieAgreed').on('click', function (e) {
-
-     alert("I am an alert box!");
-
-})
-
