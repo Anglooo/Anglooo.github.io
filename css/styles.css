@@ -250,6 +250,11 @@ fieldset[disabled] .btn-custom.active {
   color: white;
 }
 
+.img-discography:hover{
+-webkit-filter: blur(2px);
+
+}
+
 
 
 
