@@ -259,7 +259,8 @@ fieldset[disabled] .btn-custom.active {
 .modal.bandcampModal .modal-dialog{
   width: 440px;
   margin-bottom: 20px;
-}
+  height: auto;
+  }
 
 
 
