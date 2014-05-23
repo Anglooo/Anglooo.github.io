@@ -255,10 +255,10 @@ fieldset[disabled] .btn-custom.active {
 
 }
 
-#bandcampModal{
-  
-  width: 350px;
 
+.modal.bandcampModal .modal-dialog{
+  width: 440px;
+  margin-bottom: 20px;
 }
 
 
