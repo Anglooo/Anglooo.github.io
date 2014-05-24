@@ -250,11 +250,6 @@ fieldset[disabled] .btn-custom.active {
   color: white;
 }
 
-.img-discography:hover{
--webkit-filter: blur(2px);
-
-}
-
 
 .modal.bandcampModal .modal-dialog{
   width: 440px;
@@ -262,6 +257,36 @@ fieldset[disabled] .btn-custom.active {
   height: auto;
   }
 
+
+.albumArt{
+  position: relative; 
+}
+
+
+.albumArt p {
+  position: absolute;
+  text-align: center; 
+  top: 50%; 
+  width: 100%; 
+  display: none;
+  font-weight: bolder;
+}
+
+.albumArt a{
+  color: #fff;
+}
+
+.albumArt a:hover{
+  text-decoration: none;
+}
+
+.albumArt:hover p{
+  display: block;
+}
+
+.albumArt:hover .img-discography{
+  -webkit-filter: blur(2px);
+}
 
 
 
