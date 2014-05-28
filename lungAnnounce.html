@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Penfold: Tour</title>
+                <title>Penfold: Home</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
                 <!--Bootstrap Files-->
@@ -23,21 +23,19 @@
                 });
                 </script>
 
-                <!--Loads the mailing list div-->       
-                 <script> 
-                $(function(){
-                  $("#mailingListModal").load("MailingListModal.html"); 
-                });
-                </script>
-
                 <!--Loads the cookie warning div-->       
                 <script> 
-                $(function(){ if ($.cookie('bas_referral') == null ){
-                $("#cookieLoad").load("cookieWarning.html");} 
+                $(function(){
+                  $("#cookieLoad").load("cookieWarning.html"); 
                 });
                 </script> 
 
-
+                <!--Loads the mailing list div-->       
+                <script> 
+                $(function(){
+                  $("#mailingListModal").load("MailingListModal.html"); 
+                });
+                </script> 
 
                 <!--My External Scripts-->       
 
@@ -66,10 +64,10 @@
                                
                                         <ul class = "nav navbar-nav navbar-right" id = "customFontHere">
                                        
-                                                <li><a href = "index.html">Home</a></li>
-                                                <li><a href = "NewsOverview.html">News</a></li>
+                                                <li><a href = "index.html" >Home</a></li>
+                                                <li><a href = "NewsOverview.html" class = "active">News</a></li>
                                                 <li><a href = "about.html">About</a></li>
-                                                <li><a href = "Tour.html" class = "active">Tour</a></li>
+                                                <li><a href = "Tour.html">Tour</a></li>
                                                 <li><a href = "music.html">Music</a></li>
                                                 <li><a href = "http://www.penfoldband.bigcartel.com/">Store</a></li>
                                                 <li><a href = "#mailingList" data-toggle="modal">Mailing List</a></li>
@@ -88,72 +86,59 @@
                  <div id = "cookieLoad"></div>
                 <!--End Of Cookie Warning.-->
 
+                 
 
-                <!---Start of Page Body-->
+
 
                 <div class = "container">
+                        <div class = "row">
 
-                    <div class = "row">
+                                <div class = "col-lg-8">
 
-                        <div class = "col-lg-8">
+                                        <div class = "panel panel-default">
 
-                            <div class = "panel panel-default">
+                                                <div class = "panel-body">
 
-                                <div class "panel-body">
+                                                        <div class = "page-header">
+                                                                <h3>New EP 'Lungs' to be released 6-6-14<small> Posted 28</small></h3>
+                                                        </div>
 
-                                    <div class = "panel-heading">
-                                        
-                                    <h3>  Tour dates<small> Last updated 28 May 2014</small></h3>
+                                                        <img class = "featuredImg" src = "img/penfoldSample.jpg" width = "100%">
 
-                                    </div>
+                                                        <p> 
+                                                            Our new EP 'Lungs' will be released on Friday 6th of June through Signal Flow Records.
 
-                                    <table class ="table table-striped">
+                                                            We will also release the music video for the lead track on the EP 'Sixth Sense' on the 6th of June.
 
-                                        <tr>
+                                                            We're so excited to get this out as we have been working on this EP for just under a year alongside Aidan and JR from Signal Flow Records and we know it is by far the best release we have made to date.
 
-                                            <th>Show</th>
+                                                            All artwork by Owen Wicksted
+                                                        </p> 
 
-                                            <th>Date</th>
+                                                </div>
 
-                                            <th>Venue</th>
-
-                                            <th>Tickets</th>
-
-                                        </tr>
-                                        <tr>
-                                            <td>'Lungs' EP Launch</td>
-                                            <td>21-06-2014</td>
-                                            <td>Opium, Edinburgh</td>
-                                            <td><a href = "http://www.penfoldband.bigcartel.com">Buy Here</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Supporting 'The Fire and I'</td>
-                                            <td>31-5-2014</td>
-                                            <td>PurpleOrange, Bathgate </td>
-                                            <td><a href = "https://www.facebook.com/penfoldband/photos/a.293536577374161.70242.238994636161689/719217738139374/?type=1&theater">Info Here</a></td>
-                                        </tr>
-                                        
-
-                                    </table>
+                                        </div>
 
                                 </div>
 
-                            </div>
-                            
+                                <div class = "col-lg-4 noshow">
+
+                                        <a height = "1000" class="twitter-timeline" href="https://twitter.com/PenfoldBandUK" data-widget-id="465780140950040576">Tweets by @PenfoldBandUK</a>
+                                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                                </div>
 
                         </div>
-
-                        <div class = "col-lg-4 noshow">
-                            <a class="twitter-timeline" href="https://twitter.com/PenfoldBandUK" data-widget-id="465780140950040576">Tweets by @PenfoldBandUK</a>
-                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                        </div>
-                        
-
-                    </div>
-                    
-
                 </div>
-                <!---End of Page Body-->
+
+
+
+
+
+
+
+
+                <!--End of Jumbo-->
 
                 <!--Start of Footer-->
                 <div id = "footer"></div>

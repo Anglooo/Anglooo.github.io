@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Penfold</title>
+                <title>Penfold: Home</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                <!--Bootstrap Files-->
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
+                <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src = "js/bootstrap.js"></script>
+
+
+
+                <!--Other Files-->
+                <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+                <!--My Loading Scripts-->
+
+                <!--Loads the footer div-->       
+                <script> 
+                $(function(){
+                  $("#footer").load("footerTemplate.html"); 
+                });
+                </script>
+
+                <!--Loads the cookie warning div-->       
+                <script> 
+                $(function(){
+                  $("#cookieLoad").load("cookieWarning.html"); 
+                });
+                </script> 
+
+                <!--Loads the mailing list div-->       
+                <script> 
+                $(function(){
+                  $("#mailingListModal").load("MailingListModal.html"); 
+                });
+                </script> 
+
+                <!--My External Scripts-->       
+
+                <script src = "js/javascript.js"></script>
+                <script src = "js/cookie.js"></script>
                 <link href = "css/styles.css" rel = "stylesheet">
+
         </head>
         <body>
- 
-                <div class = "navbar navbar-inverse navbar-static-top">
+                <!--Start of Top Navbar-->
+                <div class = "navbar navbar-custom navbar-static-top">
+
                         <div class = "container">
                                
-                                <a href = "#" class = "navbar-brand">Penfold</a>
+                                <a class="navbar-brand" rel="home" href="index.html" title="Penfold" height = "80px">
+                                <img class = "img-responsive" src="img/Header.png" height = "100%">
+                                </a>
                                
                                 <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                                         <span class = "icon-bar"></span>
@@ -21,31 +62,29 @@
                                
                                 <div class = "collapse navbar-collapse navHeaderCollapse">
                                
-                                        <ul class = "nav navbar-nav navbar-right">
+                                        <ul class = "nav navbar-nav navbar-right" id = "customFontHere">
                                        
-                                                <li class = "active"><a href = "#">Home</a></li>
-                                                <li><a href = "#">Blog</a></li>
-                                                <li class = "dropdown">
-                                                       
-                                                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
-                                                        <ul class = "dropdown-menu">
-                                                                <li><a href = "#">Twitter</a></li>
-                                                                <li><a href = "#">Facebook</a></li>
-                                                                <li><a href = "#">Google+</a></li>
-                                                                <li><a href = "#">Instagram</a></li>
-                                                        </ul>
-                                               
-                                                </li>
-                                                <li><a href = "#">About</a></li>
-                                                <li><a href = "#">Contact</a></li>
-                                                <li><a href = "#">Tour</a></li>
-                                       
+                                                <li><a href = "index.html" >Home</a></li>
+                                                <li><a href = "NewsOverview.html" class = "active">News</a></li>
+                                                <li><a href = "about.html">About</a></li>
+                                                <li><a href = "Tour.html">Tour</a></li>
+                                                <li><a href = "music.html">Music</a></li>
+                                                <li><a href = "http://www.penfoldband.bigcartel.com/">Store</a></li>
+                                                <li><a href = "#mailingList" data-toggle="modal">Mailing List</a></li>
+                                                <li><a href="http://www.twitter.com/penfoldbanduk"><span class="fa fa-twitter"></span></a>
+                                                <li><a href="http://www.facebook.com/penfoldband"><span class="fa fa-facebook"></span></a>
+                                                
                                         </ul>
                                
                                 </div>
                                
                         </div>
                 </div>
+                <!--End of Top Navbar-->
+
+                 <!--Start Of Cookie Warning ****Requires hooking up to other stuff.-->
+                 <div id = "cookieLoad"></div>
+                <!--End Of Cookie Warning.-->
 
                  
 
@@ -54,7 +93,7 @@
                 <div class = "container">
                         <div class = "row">
 
-                                <div class = "col-lg-9">
+                                <div class = "col-lg-8">
 
                                         <div class = "panel panel-default">
 
@@ -75,43 +114,12 @@
 
                                 </div>
 
-                                <div class = "col-lg-3">
+                                <div class = "col-lg-4 noshow">
 
-                                        <div class = "list-group">
+                                        <a height = "1000" class="twitter-timeline" href="https://twitter.com/PenfoldBandUK" data-widget-id="465780140950040576">Tweets by @PenfoldBandUK</a>
+                                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-                                                <a href = "#" class = "list-group-item active">
-                                                        <h4 class = "list-group-item-heading"> Test</h4>
-                                                        <p class = "list-group-item-text">
-                                                        sadfsahldfha sdahfkljhsaddfhjsa sadfhjkasdfhjks sdafhgksjfd
-                                                        </p>
-                                                </a>
-                                                <a href = "#" class = "list-group-item">
-                                                        <h4 class = "list-group-item-heading"> Test</h4>
-                                                        <p class = "list-group-item-text">
-                                                        sadfsahldfha sdahfkljhsaddfhjsa sadfhjkasdfhjks sdafhgksjfd
-                                                        </p>
-                                                </a>
-                                                <a href = "#" class = "list-group-item">
-                                                        <h4 class = "list-group-item-heading"> Test</h4>
-                                                        <p class = "list-group-item-text">
-                                                        sadfsahldfha sdahfkljhsaddfhjsa sadfhjkasdfhjks sdafhgksjfd
-                                                        </p>
-                                                </a>
-                                                <a href = "#" class = "list-group-item">
-                                                        <h4 class = "list-group-item-heading"> Test</h4>
-                                                        <p class = "list-group-item-text">
-                                                        sadfsahldfha sdahfkljhsaddfhjsa sadfhjkasdfhjks sdafhgksjfd
-                                                        </p>
-                                                </a>
-                                                <a href = "#" class = "list-group-item">
-                                                        <h4 class = "list-group-item-heading"> Test</h4>
-                                                        <p class = "list-group-item-text">
-                                                        sadfsahldfha sdahfkljhsaddfhjsa sadfhjkasdfhjks sdafhgksjfd
-                                                        </p>
-                                                </a>
-                                        </div>
                                 </div>
-
 
                         </div>
                 </div>
@@ -123,28 +131,16 @@
 
 
 
-                <div class = "navbar navbar-inverse navbar-fixed-bottom">
-                	<div class = "container">
+                <!--End of Jumbo-->
 
-                		<p class = "navbar-text pull-left"> Thomas Frow 2014</p>
+                <!--Start of Footer-->
+                <div id = "footer"></div>
+                <!--End of Footer-->
 
-                                <div class = "btn-group pull-right">
-
-                        		<a class = "btn navbar-btn btn-default ">
-                        			Fb
-                        		</a>
-                        		<a class = "btn navbar-btn btn-default ">
-                        			twit
-                        		</a>
-                        		<a class = "btn navbar-btn btn-default ">
-                        			bandcamp
-                        		</a>
-                                </div>
-                	</div>
-                </div>
+                <!--Start of Mailing List Modal-->
+                <div id = "mailingListModal"></div>
+                <!--End of Mailing List Modal-->
  
-                <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-                <script src = "js/bootstrap.js"></script>
                
         </body>
 </html>
