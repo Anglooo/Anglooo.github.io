@@ -288,5 +288,10 @@ fieldset[disabled] .btn-custom.active {
   -webkit-filter: blur(2px);
 }
 
+.mainJumbo .a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
 
 
