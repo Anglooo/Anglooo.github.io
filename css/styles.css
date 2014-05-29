@@ -288,9 +288,14 @@ fieldset[disabled] .btn-custom.active {
   -webkit-filter: blur(2px);
 }
 
-.mainJumbo .a:hover{
+.jumboItem .carousel-caption a:hover{
   text-decoration: none;
-  color: #000000;
+  color: #9a9a9a;
+}
+
+.jumboItem  .carousel-caption a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 
