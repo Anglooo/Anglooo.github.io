@@ -298,5 +298,10 @@ fieldset[disabled] .btn-custom.active {
   color: #FFFFFF;
 }
 
+.modal .photoModal .modal-dialog{
+  width:1000px;
+
+}
+
 
 
