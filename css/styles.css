@@ -298,10 +298,43 @@ fieldset[disabled] .btn-custom.active {
   color: #FFFFFF;
 }
 
-.modal .photoModal .modal-dialog{
-  width:1000px;
-
+.modal.photoModal{
+  height: 100%;
+  width: 100%;
 }
+
+.modal.photoModal .modal-dialog{
+  width:100%;
+  height:100%;
+  margin:0;
+}
+
+
+.modal.photoModal .jumboImage{
+  height:100%;
+}
+
+.carousel-inner>.item>.albumImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+#albumImage{
+  max-height: 100%;
+  height:100%;
+  width:auto;
+}
+
+.photoImages>img{
+  height:250px;
+  border:2px solid white;
+  margin: 1px;
+}
+
 
 
 
