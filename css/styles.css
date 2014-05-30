@@ -298,6 +298,14 @@ fieldset[disabled] .btn-custom.active {
   color: #FFFFFF;
 }
 
+.modal-content{
+  background-color: black;
+}
+
+.modal-body{ 
+color: black;
+}
+
 .modal.photoModal{
   height: 100%;
   width: 100%;
@@ -329,10 +337,40 @@ fieldset[disabled] .btn-custom.active {
   width:auto;
 }
 
-.photoImages>img{
+
+.photoThumbnail>img{
   height:250px;
   border:2px solid white;
   margin: 1px;
+  cursor: zoom-in;
+}
+
+.photoThumbnail{
+  position: relative;
+  display:inline-block;
+}
+
+
+.photoThumbnail p {
+  position: absolute;
+  top: 50%; 
+  text-align: center;
+  width: 100%;
+  display: none;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.photoThumbnail:hover{
+  cursor: pointer;
+}
+
+.photoThumbnail:hover p{
+  display: block;
+}
+
+.photoThumbnail:hover .photoThumb{
+  -webkit-filter: blur(2px);
 }
 
 
