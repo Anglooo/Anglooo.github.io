@@ -244,7 +244,11 @@ fieldset[disabled] .btn-custom.active {
   letter-spacing: 2px;
   font-size: 50px;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
+}
+@media (max-width: 700px){
+  #customFontHere2{
+    font-size: 12px;
+  }
 }
 
 .page-header {
@@ -372,6 +376,10 @@ color: black;
 
 .photoThumbnail:hover .photoThumb{
   -webkit-filter: blur(2px);
+}
+
+#noDecor:hover{
+  text-decoration: none;
 }
 
 
