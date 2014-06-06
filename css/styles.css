@@ -247,7 +247,7 @@ fieldset[disabled] .btn-custom.active {
 }
 @media (max-width: 700px){
   #customFontHere2{
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
@@ -380,6 +380,10 @@ color: black;
 
 #noDecor:hover{
   text-decoration: none;
+}
+
+#noDisplay{
+  display: none;
 }
 
 
