@@ -183,7 +183,7 @@ fieldset[disabled] .btn-custom.active {
     color:#eeeeee;
 }
 
-@media (max-width: 700px){
+@media (max-width: 900px){
   .noshow {
   display: none;
   }
