@@ -1,6 +1,6 @@
 .masthead {
     color:#FFFFFF;
-    background-image:url("http://placehold.it/320x200");
+    background-image:url("/images/header.jpg");
     background-repeat:no-repeat;
     background-position: center;
     height:200px;
@@ -49,8 +49,13 @@
 
 .table{
   background-color:rgba(28,184,222,0.2);
-  }
-  
+}
+
 .panel-body h4{
 	text-decoration: underline;
+}
+
+.nothing{
+      background-image:url("http://placehold.it/320x200");
+
 }
