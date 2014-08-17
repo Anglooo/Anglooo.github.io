@@ -1,6 +1,6 @@
 .masthead {
     color:#FFFFFF;
-    background-image:url("http://placehold.it/320x200");
+    background-image:url("/images/header.jpg");
     background-repeat:no-repeat;
     background-position: center;
     height:200px;
@@ -23,6 +23,10 @@
   float: none;
 }
 
+.navbar li>a{
+
+}
+
 .navbar .navbar-collapse {
   text-align: center;
 }
@@ -33,6 +37,8 @@
 	background-color:rgba(28,184,222,0.2);
 	padding: 5px;
 }
+
+
 
 
 
