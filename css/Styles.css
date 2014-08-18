@@ -48,6 +48,7 @@
 }
 .panel-default .panel-body{
   background-color:rgba(28,184,222,0.2);
+  .padding: 3px;
 
 }
 
@@ -60,7 +61,15 @@
 	text-decoration: underline;
 }
 
+h1{
+  font-family: "Ariel";
+}
+
 .nothing{
       background-image:url("http://placehold.it/320x200");
 
+}
+
+#bodyContainer {
+  padding-bottom: 60px
 }
