@@ -1,9 +1,10 @@
 .masthead {
     color:#FFFFFF;
     background-image:url("/images/PressureLogo.png");
-    background-size: 200px 200px;
+    background-size: 300px 300px;
     background-repeat:no-repeat;
     background-position: center;
+    height: 300px;
 }
 
 .img-whowhatwhere {
