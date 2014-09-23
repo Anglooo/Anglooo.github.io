@@ -29,7 +29,7 @@
 
     <script>
 
-    var fullSite = <?php echo'"' .$data.'"'; ?>;
+    var fullSite = "<?php echo $data; ?>;"
 
     alert(fullSite);
 
