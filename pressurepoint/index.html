@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title></title>
+                <title>Pressure Point: Home</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
                 <!--Bootstrap Files-->
@@ -18,15 +18,13 @@
                 <!--My Loading Scripts-->
 
                 <?php
-                // Include WordPress
                 define('WP_USE_THEMES', false);
-                require('blog/wp-load.php');
+                require('webadmin/wp-load.php'); 
                 query_posts('showposts=1');
                 ?>
 
                 <!--My External Scripts-->       
 
-                <script src = "js/javascript.js"></script>
                 <link href = "css/Styles.css" rel = "stylesheet">
 
         </head>
@@ -126,7 +124,8 @@
                                 </div>
 
                                 <div class = "panel-body">
-                                    <h2><?php the_title(); ?></h2>     
+                                    <h2><?php the_title();
+                                    echo("test"); ?></h2>     
 
                                     <p><?php the_content(); ?></p>
                                     <?php endwhile; ?>
