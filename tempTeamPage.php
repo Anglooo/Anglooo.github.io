@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Livingston Community Football Club: Home</title>
+    <title>Livingston Community Football Club: Team Page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,25 +17,20 @@
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
 
-    <?php
-
-        $ch = curl_init("http://www.wlayfc.org/index.php/under-13/u13-league-tables");
-
-        curl_setopt($ch, CURLOPT_HEADER, 0);
-
-        $data = curl_exec($ch);
-        curl_close($ch);
-    ?>
-
     <script>
 
-    var fullSite = "<?php echo $data; ?>;"
+    //var fullSite = "<?php echo $data; ?>;";
 
-    alert(fullSite);
+    //alert(fullSite);
 
 
     </script>
 
+    <?php
+    
+        file_put_contents('lcfc2002.html',file_get_contents('http://www.wlayfc.org/index.php/under-13/u13-league-tables'))
+
+    ?>
 
 
 
@@ -131,7 +126,8 @@
 
             <div class="tab-pane active" id="overview">
 
-              
+                <h1> Coming Soon</h1>
+
             </div>
             <div class="tab-pane" id="squad">
 
@@ -336,6 +332,7 @@
             <div class="tab-pane" id="standings">
 
                 <h1>Coming Soon</h1>
+                   
               
             </div>
             <div class="tab-pane" id="contact">
@@ -360,7 +357,7 @@
 
             <div class="tab-pane active" id="sponsers">
 
-              
+              adsadsA
             </div>
 
         </div>
@@ -397,19 +394,6 @@
     });
     });
     </script>
-
-    <?php
-
-    $ch = curl_init("http://www.example.com/");
-    $fp = fopen("example_homepage.txt", "w");
-
-    curl_setopt($ch, CURLOPT_FILE, $fp);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-
-    curl_exec($ch);
-    curl_close($ch);
-    fclose($fp);
-    ?>
 
 
 
